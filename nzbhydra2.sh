@@ -57,4 +57,4 @@ echo "[DONE]"
 #
 
 echo "Starting nzbhydra2..."
-exec su -pc "./nzbhydra2wrapperPy3.py --datafolder ${CONFIG}" ${USER}
+exec su -pc "python3 nzbhydra2wrapperPy3.py --datafolder ${CONFIG}" ${USER}
