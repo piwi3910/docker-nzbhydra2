@@ -33,7 +33,7 @@ RUN adduser -u 666 -D -h /nzbhydra2 -s /bin/bash nzbhydra2 nzbhydra2 && \
 	apk add --no-cache python3 ca-certificates shadow openjdk11-jre-headless && \
     update-ca-certificates && \
     chown -R nzbhydra2: nzbhydra2 && \
-    rm -rf /tmp/nzb* && \
+    rm -rf /tmp/nzb*
 
 #
 # Define container settings.
