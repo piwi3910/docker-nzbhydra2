@@ -16,12 +16,12 @@ ENV LANG C.UTF-8
 #
 # Specify versions of software to install.
 #
-ARG NZBHYDRA2_VERSION=DEFAULT
+ARG VERSION=DEFAULT
 
 #
 # Add (download) nzbhydra2
 #
-ADD https://github.com/theotherp/nzbhydra2/releases/download/v${NZBHYDRA2_VERSION}/nzbhydra2-${NZBHYDRA2_VERSION}-linux.zip /tmp/nzbhydra2.zip
+ADD https://github.com/theotherp/nzbhydra2/releases/download/v${VERSION}/nzbhydra2-${VERSION}-linux.zip /tmp/nzbhydra2.zip
 
 #
 # Install nzbhydra2 and requied dependencies
